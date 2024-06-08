@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: black !important;
+  text-decoration: none !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.btn {
+  color: white !important;
+}
+.black_btn{
+  color: black !important;
+}
+
+/* navbar */
+.navbar {
+  background-color: white !important;
+  & button {
+    font-size: 18px;
+  }
+}
+.navLinks li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+/* hero section */
+.hero {
+  background-color: #fafafa;
+}
+.leftSide_firstP {
+  font-weight: 700;
+}
+.leftSide_h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+.leftSide_secondP {
+  font-size: 24px;
+  color: #2d3142;
+  font-weight: 400;
+}
+.leftSide_firstP span {
+  color: red;
+}
+.leftSide_Button {
+  margin-top: 20px;
+}
+
+
+/* companies section */
+.companies {
+  background-color: #fff;
+}
+.companyP {
+  color: #2d3142;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* problem section */
+.problem {
+  background-color: #fafafa;
+}
+.row1_title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  color: #2d3142;
+}
+.row1_p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2d3142;
+}
+.problem_hr {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #072125;
+}
+.problem_row2 {
+  justify-content: space-between;
+  & div {
+    & h1 {
+      font-weight: 700;
+      font-size: 64px;
+      color: #2d3142;
+    }
+    .designation {
+      font-size: 16px;
+      font-weight: 400;
+      color: #f44335;
+      margin-bottom: 10px;
+    }
+    & p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 400;
+      color: #072125;
+    }
+    width: 216px;
+  }
+}
+/* how it works section */
+.howItWorks_p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3142;
+}
+.howItWorks_h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #2d3142;
+}
+
+/* how it works content section */
+.howItWorksContent {
+  background-color: #fafafa;
+}
+.develop_h3 {
+  color: #1e212c;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.export_p {
+  color: #787a80;
+  font-weight: 400;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+/* testimonials section  */
+.testimonials {
+  background-color: #fafafa;
+}
+.text_h3 {
+  color: #072125;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text_P {
+  font-size: 16px;
+  font-weight: 400;
+  color: #072125;
+}
+.reviewCard {
+  width: 387px;
+  height: 450px;
+  color: #072125;
+}
+.reviewCard_text {
+  font-size: 24px;
+  font-weight: 400;
+}
+.reviewCard_name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px !important;
+}
+.reviewCard_uni {
+  font-size: 14px;
+  font-weight: 400;
+  color: #20484f;
+}
+/* footer section */
+.footer_p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #20484f;
+  line-height: 30px;
+}
+.copyright {
+  color: #20484f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer_links {
+  height: 203px !important;
+  & h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #20484f !important;
+  }
+}
+.footer_ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #20484f !important;
+}
+
+
+/* ? media query */
+
+@media all and (max-width: 992px) {
+  .leftSide_h1 {
+    font-size: 40px;
+  }
+  .leftSide_secondP {
+    font-size: 16px;
+  }
+  .howItWorks_h1{
+    font-size: 40px;
+  }
+  .howItWorks_p{
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 576px) {
+  .leftSide_firstP{
+    font-size: 16px;
+  }
+  .leftSide_h1{
+    font-size: 32px;
+  }
+  .leftSide_secondP{
+    font-size: 14px;
+  }
+  button{
+    font-size: 14px !important;
+  }
+  .companyP{
+    font-size: 14px;
+  }
+  .row1_title{
+    font-size: 24px;
+  }
+  .problem_row2 h1{
+    font-size: 48px !important;
+  }
+  .problem_row2 .col-3{
+    text-align: center;
+  }
+  .howItWorks_h1{
+    font-size: 28px;
+    text-wrap: nowrap;
+  }
+  .howItWorks_p{
+    font-size: 14px;
+  }
+  .develop_h3{
+    font-size: 24px;
+    text-align: center;
+  }
+  .export_p{
+    font-size: 14px;
+    text-align: center;
+  }
+}
