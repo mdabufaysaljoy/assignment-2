@@ -250,4 +250,13 @@
     font-size: 14px;
     text-align: center;
   }
+  .reviewCard_text{
+    font-size: 16px;
+  }
+  .reviewCard_name{
+    font-size: 14px;
+  }
+  .reviewCard_uni{
+    font-size: 12px;
+  }
 }
